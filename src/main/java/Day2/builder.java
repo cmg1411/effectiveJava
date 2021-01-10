@@ -1,2 +1,4 @@
-package Day2;public class builder {
+package Day2;
+
+public class builder {
 }
