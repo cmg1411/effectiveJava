@@ -26,6 +26,4 @@ public class Book {
         book.author = author;
         return book;
     }
-
-    Collections
 }

@@ -189,11 +189,20 @@ Connection conn = null;
 conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORA92", "scott", "tiger"); 
 Statement..
 ```
-위의 코드에서 Connection 이 서비스 인터페이스,
-리플렉션을 이용해 클래스가 로드될 때 드라이버를 등록하는 DriverManager.registerDriver 가 제공자 등록 API,
+위의 코드에서 Connection 이 서비스 인터페이스,  
+리플렉션을 이용해 클래스가 로드될 때 드라이버를 등록하는 DriverManager.registerDriver 가 제공자 등록 API,  
 서비스 인터페이스인 Connection 에 대한 접근을 제공하는 DriverManager.getConnection 이 서비스 접근 API 역할을 하게 된다.
 
 드라이버가 서비스 제공자 인터페이스 역할을 한다.
+
+**드라이버는 어떤 드라이버가 쓰일지 모른다.**  
+
+oracle, mysql .. 각 DBMS 에 맞는 Driver 가 있고,  
+Class.forName() 의 인수를 통해 알맞은 드라이버를 등록하고 필요한 객체를 얻는다.
+
+정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다 라는 말의 의미는  
+반환할 객체를 펙토리 메서드 방식을 이용하여 만들기 때문에, JDBC 에서도 각 상황에 따라서 펙토리 메서드 내용만 바꿔서  
+연결에 필요한 객체를 얻을 수 있다는 말이다.
 
 [Class.forName 동작방식](https://devyongsik.tistory.com/294)
 
