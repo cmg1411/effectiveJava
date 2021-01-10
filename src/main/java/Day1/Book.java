@@ -1,21 +1,31 @@
 package Day1;
 
+import java.util.Collections;
+
 public class Book {
     private String name;
     private String author;
     private String publisher;
 
-    public static Book bookWithNameAndAuthor(String name, String author) {
-         return new Book(name, author);
+//    public Book(String name) {
+//        this.name = name;
+//    }
+//
+//    public Book(String author) {
+//        this.author = author;
+//    }
+
+    public static Book createBookWithName(String name) {
+        Book book = new Book();
+        book.name = name;
+        return book;
     }
 
-    private Book(String name, String author) {
-        this.name = name;
-        this.author = author;
+    public static Book createBookWithAuthor(String author) {
+        Book book = new Book();
+        book.author = author;
+        return book;
     }
 
-    private Book(String name, String publisher) {
-        this.name = name;
-        this.publisher = publisher;
-    }
+    Collections
 }
