@@ -18,6 +18,10 @@ public class Book {
 ```
 
 
+<br>
+<br>
+<br>
+
 
 ---
 ### 정적 팩터리 메서드의 장점
@@ -51,6 +55,9 @@ Book book2 = Book.createBookWithName("effectiveJava");
 // 이름이 "effectiveJava" 임을 한눈에 알 수 있다.
 ```
 
+<br>
+<br>
+<br>
 
 #### 2. 하나의 시그니쳐로 여러가지 객체를 생성할 수 있다.
 매개변수의 타입과 갯수가 같은 생성자를 여러개 만들 수 없다.
@@ -92,6 +99,10 @@ public class Book {
 }
 ```
 
+<br>
+<br>
+<br>
+
 
 #### 3. 호출 할 때마다 인스턴스를 새로 생성하지 않아도 된다.
 ```
@@ -107,6 +118,11 @@ public final class Boolean implements java.io.Serializable, Comparable<Boolean> 
 
 정적 팩토리 메서드로 객체 안에 미리 정의된 static final 상수 객체를 반환.  
 매번 새로운 객체를 만들지 않는다.
+
+
+<br>
+<br>
+<br>
 
 
 #### 4. 반환 타입의 하위 타입 객체를 반환할 수 있다.
@@ -142,8 +158,20 @@ public class Collections {
 자바 8 버전 이후로는 인터페이스에서 public static 메소드를 추가할 수 있기 때문에 인터페이스로 만들 수 있다.
 private static 메서드는 자바 9 부터 이용할 수 있다.
 
+
+<br>
+<br>
+<br>
+
+
 #### 5. 입력 매개변수에 따라 매번 다른 클래스의 객체를 반환할 수 있다.
 위의 예시에서 unmodifialbeList() 의 인수 list 가 RandomAccess 의 인스턴스인지 아닌지에 따라 다른 클래스의 객체를 반환한다.
+
+
+<br>
+<br>
+<br>
+
 
 #### 6. 정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다.
 서비스 제공자 프레임워크 : 서비스의 구현체를 클라이언트에 제공하는 것을 프레임워크가 통제하여 클라이언트를 구현체로부터 분리
@@ -155,17 +183,38 @@ private static 메서드는 자바 9 부터 이용할 수 있다.
    - 서비스 제공자 인터페이스 : 서비스 인터페이스의 인스턴스를 생성하는 팩터리 객체
    
 ```
+// jdbc 연결하는 코드
 Class.forName("oracle.jdbc.driver.OracleDriver"); 
 Connection conn = null; 
 conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORA92", "scott", "tiger"); 
 Statement..
 ```
+위의 코드에서 Connection 이 서비스 인터페이스,
+리플렉션을 이용해 클래스가 로드될 때 드라이버를 등록하는 DriverManager.registerDriver 가 제공자 등록 API,
+서비스 인터페이스인 Connection 에 대한 접근을 제공하는 DriverManager.getConnection 이 서비스 접근 API 역할을 하게 된다.
+
+드라이버가 서비스 제공자 인터페이스 역할을 한다.
+
+[Class.forName 동작방식](https://devyongsik.tistory.com/294)
+
+
+<br>
+<br>
+<br>
+
 
 ---
 ### 정적 팩터리 메서드의 단점
-1. 상속을 하려면 public, protected 생성자가 필요하기 때문에, 정적 펙토리 메서드만 제공하면 하위 클래스를 만들 수 없다.
-2. 정적 팩터리 메서드는 찾기가 어렵다.
+ - 상속을 하려면 public, protected 생성자가 필요하기 때문에, 정적 펙토리 메서드만 제공하면 하위 클래스를 만들 수 없다.
+   - java.util.Collections 로 만든 구현체는 상속할 수 없다.
+    
+ - 정적 팩터리 메서드는 찾기가 어렵다.
+   - 생성자와는 달리 Javadoc 문서에서 따로 모아주는 기능이 없다.
 
+
+<br>
+<br>
+<br>
 
 
 ---
