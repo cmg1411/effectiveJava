@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="log4j" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-13T08:25:17" hostname="Tomass-Mac.local" time="0.006">
+  <properties/>
+  <testcase name="로거_생성_테스트" classname="log4j" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1월 13, 2021 5:25:17 오후 log4j 로거_생성_테스트
+정보: hello
+]]></system-err>
+</testsuite>
