@@ -21,7 +21,7 @@
 
 #### 3장 모든 객체의 공통 메서드
 1. [x] equals 는 일반 규약을 지켜 재정의하라.
-1. [] equals 를 재정의하려거든 hashCode 도 재정의하라.
+1. [x] equals 를 재정의하려거든 hashCode 도 재정의하라.
 
 <br>
 <br>
