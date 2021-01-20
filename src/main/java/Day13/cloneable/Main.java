@@ -1,10 +1,9 @@
 package Day13.cloneable;
 
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) {
         YesCloneable yesCloneable = new YesCloneable();
         NoCloneable noCloneable = new NoCloneable();
-
 
         try {
             yesCloneable.clone();

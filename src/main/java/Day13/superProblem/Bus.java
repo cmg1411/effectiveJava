@@ -14,6 +14,5 @@ public class Bus extends Car implements Cloneable {
     @Override
     protected Car clone() {
         return super.clone(); // 공변 변환 타이핑
-
     }
 }

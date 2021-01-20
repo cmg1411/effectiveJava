@@ -12,7 +12,6 @@ public class Entry {
     }
 
     public Entry deepCopy() {
-        System.out.println(key);
         return new Entry(key, value,
             next == null ? null : next.deepCopy());
     }

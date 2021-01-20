@@ -1,5 +1,7 @@
 package Day8;
 
+import java.io.BufferedReader;
+
 public class FinalizerExample {
 
     /**
@@ -11,7 +13,6 @@ public class FinalizerExample {
     protected void finalize() throws Throwable {
         System.out.println("Finalize");
     }
-
 
     public void hello() {
         System.out.println("hi");
