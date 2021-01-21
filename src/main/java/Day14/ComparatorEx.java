@@ -2,6 +2,18 @@ package Day14;
 
 import java.util.Comparator;
 
+
+/**
+ * 참조 객체용 비교자 생성 매서드
+ * comparing (2중정의)
+ * comparing(키 추출자)
+ * comparing(키 추출자, 추출된 키를 비교할 비교자)
+ *
+ * thenComparing(비교자).
+ * thenComparing(키 추출자)
+ * thenComparing(키 추출자, 추출된 키를 비교할 비교자)
+ *
+ */
 public class ComparatorEx implements Comparable<ComparatorEx> {
     private int firstPhone;
     private int secondPhone;
