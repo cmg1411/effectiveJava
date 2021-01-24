@@ -1,9 +1,8 @@
 package Day13.superProblem;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
-
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class CarTest {
     @Test
@@ -11,9 +10,9 @@ public class CarTest {
         var car = new Car("genesis");
         var clone = car.clone();
 
-        assertNotSame(car, clone);
+        assertThat(car).isEqualTo(clone);
 
-        assertEquals(car.getClass(), clone.getClass());
+        assertThat(car.getClass()).isEqualTo(clone.getClass());
 
         // assertEquals(car, clone);
     }
