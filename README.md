@@ -41,3 +41,5 @@
  - [번역 용어 해설](https://github.com/WegraLee/effective-java-3e-source-code)
  - [백기선님과 같이 공부하기](http://bit.ly/2Lu4BGi)
  - [Effective Java 책 정보](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=171196410)
+ - [JavaBom 스터디](https://github.com/Java-Bom/ReadingRecord/issues)
+ - [쟈미블로그](https://github.com/Java-Bom/ReadingRecord/issues)
