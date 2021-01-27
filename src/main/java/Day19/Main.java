@@ -1,5 +1,7 @@
 package Day19;
 
+import java.util.AbstractList;
+
 public class Main {
 
     // 5. 상속용 클래스의 생성자는 재정의 가능 메서드를 호출해서는 안된다. 직접적으로든 간접적으로든.
