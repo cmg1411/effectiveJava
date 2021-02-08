@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class NestedNonStatic {
     private String school;
-    private InnerClass in = new InnerClass("hi", 10);
+    private InnerClass in;
 
     private class InnerClass {
         private String name;
@@ -24,7 +24,7 @@ public class NestedNonStatic {
         }
     }
 
-    public void getInnerName() {
-        in.getName();
+    public void createInnerInstance() {
+        in = new InnerClass("tomas", 10);
     }
 }
