@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class VarargsGeneric {
-    public static void go(int...a) {
+    public static <T> void go(T...a) {
     }
 
 
@@ -23,6 +23,6 @@ public class VarargsGeneric {
         //go(list);
 
         List<String> list2 = new ArrayList<>(List.of("hi", "my"));
-        dangerous(list2);
+        //dangerous(list2, list2, list2);
     }
 }

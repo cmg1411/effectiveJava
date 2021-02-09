@@ -3,7 +3,7 @@ package Chapter5.Day30;
 import java.util.function.UnaryOperator;
 
 public class IdentityFunction<T> {
-    private static final UnaryOperator<Object> IDENTITY_FN = (t) -> t;
+    public static final UnaryOperator IDENTITY_FN = (t) -> t;
 
     /**
      * 들어온 대로 내보내는 항등함수이므로,
