@@ -17,7 +17,7 @@ public enum  Planet {
          * 따라서 생성자에서 다른 상수도 접근할 수 없다.
          */
         // list.add(this);
-        // list. add(MARS);
+        // System.out.println(MARS);
         this.num = num;
     }
 }
