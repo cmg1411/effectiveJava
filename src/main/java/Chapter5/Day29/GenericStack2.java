@@ -1,29 +1,31 @@
 package Chapter5.Day29;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.List;
 
-public class Stack {
+public class GenericStack2<E> {
     private Object[] elements;
     private int size = 0;
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
-    public Stack() {
+    public GenericStack2() {
         elements = new Object[DEFAULT_INITIAL_CAPACITY];
     }
 
-    public void push(Object e) {
+    public void push(E e) {
         ensureCapacity();
         elements[size++] = e;
     }
 
-    public Object pop() {
+    public E pop() {
         if (size == 0) {
             throw new EmptyStackException();
         }
 
-        Object result = elements[--size];
+        @SuppressWarnings("unchecked")
+        E result = (E) elements[--size];
         elements[size] = null;
         return result;
     }
