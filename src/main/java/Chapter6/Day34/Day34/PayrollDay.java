@@ -1,6 +1,6 @@
-package Chapter5.Day34;
+package Chapter6.Day34.Day34;
 
-import static Chapter5.Day34.PayrollDay.PayType.*;
+import static Chapter6.Day34.Day34.PayrollDay.PayType.*;
 
 public enum PayrollDay {
     MONDAY(WEEKDAY),

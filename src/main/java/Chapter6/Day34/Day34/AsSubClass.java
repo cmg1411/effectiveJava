@@ -1,9 +1,8 @@
-package Chapter5.Day34;
+package Chapter6.Day34.Day34;
 
 import jdk.jfr.AnnotationElement;
 
 import java.lang.annotation.Annotation;
-import java.util.List;
 
 public class AsSubClass {
     static Annotation getAnnotation(AnnotationElement annotationElement, String annotationTypeName) {
