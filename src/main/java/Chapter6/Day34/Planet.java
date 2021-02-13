@@ -1,4 +1,4 @@
-package Chapter6.Day34.Day34;
+package Chapter6.Day34;
 
 import java.util.List;
 
