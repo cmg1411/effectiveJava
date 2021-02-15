@@ -61,3 +61,8 @@ Map<from, Map<to, transition>> 형태로, from 에 대응되는 map 을 get 으�
 
 배열의 인덱스를 얻기 위해 ordinal 을 쓰는 것은 일반적으로 좋지 않으니 EnumMap 을 사용하라.  
 다차원 관계는 ```Map<key, Map<key, Map<key, value>>>``` 형태를 사용하면 좋다
+
+
+[Collectors.groupingBy() 와 Collectors.toMap() 의 차이](https://stackoverflow.com/questions/45231351/differences-between-collectors-tomap-and-collectors-groupingby-to-collect-in/45231743)
+ - 한 키값에 하나의 벨류값. (Map<MyKey,MyObject>) : Collectors.toMap().
+ - 한 키값에 multiple 한 벨류값. (Map<MyKey, List<MyObject>>) : Collectors.groupingBy().
