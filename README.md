@@ -56,7 +56,7 @@
 1. [x] 35 ordinal 메서드 대신 인스턴스 필드를 사용하라.
 1. [x] 36 비트 필드 대신 EnumSet 을 사용하라.
 1. [x] 37 ordinal 인덱싱 대신 EnumMap 을 사용하라.
-1. [x] 38 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter5/Day38/item38.md)
+1. [x] 38 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter6/Day38/item38.md)
 <br>
 <br>
 
