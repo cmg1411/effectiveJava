@@ -15,8 +15,6 @@ public class OperationTest {
         test(MarsOperation.class, x, y);
 
         Set<MarsOperation> s = EnumSet.of(MarsOperation.MARS_PLUS, MarsOperation.MARS_MINUS);
-
-        LinkOption
     }
 
     private static <T extends Enum<T> & Operation> void test (Class<T> opEnumType, double x, double y) {
