@@ -23,7 +23,4 @@ public class ToArray {
 
         throw new AssertionError();
     }
-
-
-
 }
