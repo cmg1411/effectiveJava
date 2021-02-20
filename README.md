@@ -57,6 +57,9 @@
 1. [x] 36 비트 필드 대신 EnumSet 을 사용하라.
 1. [x] 37 ordinal 인덱싱 대신 EnumMap 을 사용하라.
 1. [x] 38 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter6/Day38/item38.md)
+1. [x] 39 명명 패턴보다 에너테이션을 사용하라. ✊[발표]()
+1. [x] 40 @Override 에너테이션을 일관되게 사용하라.
+
 <br>
 <br>
 
@@ -68,4 +71,3 @@
  - [백기선님과 같이 공부하기](http://bit.ly/2Lu4BGi)
  - [Effective Java 책 정보](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=171196410)
  - [JavaBom 스터디](https://github.com/Java-Bom/ReadingRecord/issues)
- - [쟈미블로그](https://github.com/Java-Bom/ReadingRecord/issues)
