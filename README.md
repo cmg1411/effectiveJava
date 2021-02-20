@@ -59,6 +59,7 @@
 1. [x] 38 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter6/Day38/item38.md)
 1. [x] 39 명명 패턴보다 에너테이션을 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter6/Day39/item39.md)
 1. [x] 40 @Override 에너테이션을 일관되게 사용하라.
+1. [x] 41 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라. ✊[발표]()
 
 <br>
 <br>
