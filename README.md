@@ -61,6 +61,9 @@
 1. [x] 40 @Override 에너테이션을 일관되게 사용하라.
 1. [x] 41 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter6/Day41/item41.md)
 
+#### 7장 람다와 스트림
+1. [x] 42 익명 클래스보다는 람다를 사용하라.
+
 <br>
 <br>
 
