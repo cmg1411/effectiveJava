@@ -11,6 +11,31 @@
 ## 1번) nextInt() % n 방식의 문제점
  - n 이 크지 않은 2의 제곱수라면, 일정 범위에서 같은 수열이 반복된다.
  - n 이 2의 제곱수가 아니라면, 몇몇 숫자가 더 자주 반환된다.
+ ```java
+    public static void main(String[] args) {
+        Random random = new Random();
+        int random1 = random.nextInt();
+
+
+        int n = 2 * (Integer.MAX_VALUE / 3);
+        int low1 = 0;
+        int low2 = 0;
+
+        for (int i = 0; i < 100000000; i++) {
+            if (random.nextInt() % n < (n/2))
+                low1++;
+        }
+
+        for (int i = 0; i < 100000000; i++) {
+            if (random.nextInt(n) < (n/2))
+                low2++;
+        }
+
+        System.out.println("nextInt() 1억번 중 절반 이하 : " + low1);
+        System.out.println("nextInt(int bound) 1억번 중 절반 이하 : " + low2);
+    }
+ ```
+![aa](img/aa.png)
  - 지정 범위 바깥 수가 종종 반환된다.
 
 <br> 
@@ -53,7 +78,7 @@
     }
 ```
 
-![threadLocalRandom](tlr.png)
+![threadLocalRandom](img/tlr.png)
 
 
 <br>
@@ -89,7 +114,7 @@
     }
 ```
 
-![img](spli.png)
+![img](img/spli.png)
 
 #### 그 외
  - 보안을 강화 java.util.security 의 SecureRandom한
