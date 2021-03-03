@@ -72,7 +72,7 @@
 
 #### 8장 메서드
 1. []
-1. [x] 50 적시에 방어적 복사본을 만들라.
+1. [x] 50 적시에 방어적 복사본을 만들라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter8/Day50/item50.md)
 1. []
 1. []
 
