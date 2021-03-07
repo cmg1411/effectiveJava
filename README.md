@@ -71,7 +71,7 @@
 1. [x] 48 스트림 병렬화는 주의해서 진행하라.
 
 #### 8장 메서드
-1. []
+1. [x] 49 매개변수가 유효한지 검사하라.
 1. [x] 50 적시에 방어적 복사본을 만들라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter8/Day50/item50.md)
 1. []
 1. []
