@@ -3,7 +3,7 @@
  - 중간 중간에 공부하면서 배운 내용과 정리를 주석과 마크다운으로 표현하였습니다.
  - MeetCoder 스터디를 진행하면서  발표 내용은 해당 아이템의 패키지에 __MarkDown__ 문서로 추가합니다.
 
-[챕터별 코드 보기](https://github.com/cmg1411/effectiveJava/tree/master/src/main/java)  
+[챕터별 코드 보기 (정리본이 패키지에 있음)](https://github.com/cmg1411/effectiveJava/tree/master/src/main/java)  
 [MeetCoder 스터디 Github](https://github.com/Meet-Coder-Study/book-effective-java)
 
 <br>
@@ -67,7 +67,7 @@
 1. [x] 44 표준 함수형 인터페이스를 사용하라.
 1. [x] 45 스트림은 주의해서 사용하라.
 1. [x] 46 스트림에서는 부작용 없는 함수를 사용하라.
-1. [] 47 반환 타입으로는 스트림보다 컬렉션이 낫다.
+1. [x] 47 반환 타입으로는 스트림보다 컬렉션이 낫다.
 1. [] 48 스트림 병렬화는 주의해서 진행하라.
 
 #### 8장 메서드
