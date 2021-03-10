@@ -79,7 +79,7 @@
 1. [x] 54 null 이 아닌, 빈 컬렉션이나 배열을 반환하라. 
 1. [x] 55 옵셔널 반환은 신중히 하라.
 1. [] 56
-1. [] 57
+1. [x] 57 지역변수의 범위를 최소화하라.
 1. [] 58
 1. [x] 59 라이브러리를 익히고 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter8/Day59/item59.md)
 1. [] 60
