@@ -81,7 +81,7 @@
 1. [] 56
 1. [] 57
 1. [] 58
-1. [] 59 라이브러리를 익히고 사용하라. ✊[발표]()
+1. [x] 59 라이브러리를 익히고 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter8/Day59/item59.md)
 1. [] 60
 
 
