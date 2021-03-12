@@ -84,6 +84,7 @@
 1. [x] 59 라이브러리를 익히고 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter8/Day59/item59.md)
 1. [x] 60 정확한 답이 필요하다면 float 와 double 은 피하라.
 1. [x] 61 박싱된 기본 타입보다는 기본 타입을 사용하라.
+1. [x] 62 다른 타입이 적절하다면 문자열 사용을 피하라.
 
 
 <br>
