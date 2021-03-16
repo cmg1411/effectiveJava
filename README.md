@@ -90,7 +90,7 @@
 1. [x] 63 문자열 연결은 느리니 주의하라.
 1. [x] 64 객체는 인터페이스를 사용해 참조하라.
 1. [x] 65 리플렉션보다는 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter9/Day65/item65.md)
-
+1. [x] 66 네이티브 메서드는 신중히 사용하라.
 
 
 <br>
