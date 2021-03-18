@@ -95,7 +95,7 @@
 1. [x] 68 일반적으로 통용되는 명명규칙을 따르라.
 
 #### 10장 예외
-1. [x] 69 예외는 진짜 예외 상황에만 사용하라.
+1. [x] 69 예외는 진짜 예외 상황에만 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter10/Day69/item69.md)
 
 <br>
 <br>
