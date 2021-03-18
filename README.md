@@ -3,8 +3,8 @@
  - 중간 중간에 공부하면서 배운 내용과 정리를 주석과 마크다운으로 표현하였습니다.
  - MeetCoder 스터디를 진행하면서  발표 내용은 해당 아이템의 패키지에 __MarkDown__ 문서로 추가합니다.
 
-[챕터별 코드 보기 (정리본이 패키지에 있)](https://github.com/cmg1411/effectiveJava/tree/master/src/main/java)  
-[MeetCoder 스터디 Github](https://github.com/Meet-Coder-Study/book-effective-java)
+[챕터별 코드 보기 (정리본이 MarkDown 으로 패키지에 있습니다.)](https://github.com/cmg1411/effectiveJava/tree/master/src/main/java)  
+[MeetCoder 스터디 Github 가기](https://github.com/Meet-Coder-Study/book-effective-java)
 
 <br>
 <br>
@@ -92,6 +92,7 @@
 1. [x] 65 리플렉션보다는 인터페이스를 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter9/Day65/item65.md)
 1. [x] 66 네이티브 메서드는 신중히 사용하라.
 1. [x] 67 최적화는 신중히 하라.
+1. [x] 68 일반적으로 통용되는 명명규칙을 따르라.
 
 
 <br>
