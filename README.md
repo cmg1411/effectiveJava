@@ -3,6 +3,12 @@
  - 중간 중간에 공부하면서 배운 내용과 정리를 주석과 마크다운으로 표현하였습니다.
  - MeetCoder 스터디를 진행하면서  발표 내용은 해당 아이템의 패키지에 __MarkDown__ 문서로 추가합니다.
 
+## *TODO*
+
+ 1. 하루한 아이템 보기.
+ 1. 하루 한 아이템 md 로 정리하기.
+ 1. 정리할 때 단순히 책을 따라적는 수준으로 적지 말기.
+
 [챕터별 코드 보기 (정리본이 MarkDown 으로 패키지에 있습니다.)](https://github.com/cmg1411/effectiveJava/tree/master/src/main/java)  
 [MeetCoder 스터디 Github 가기](https://github.com/Meet-Coder-Study/book-effective-java)
 
@@ -96,6 +102,8 @@
 
 #### 10장 예외
 1. [x] 69 예외는 진짜 예외 상황에만 사용하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter10/Day69/item69.md)
+1. [x] 70 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라.
+
 
 <br>
 <br>
