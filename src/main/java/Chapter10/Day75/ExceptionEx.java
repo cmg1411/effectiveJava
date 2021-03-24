@@ -1,4 +1,4 @@
-package Chapter10.Day74;
+package Chapter10.Day75;
 
 public class ExceptionEx {
 
