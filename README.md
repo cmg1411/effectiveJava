@@ -109,14 +109,14 @@
 1. [x] 74 메서드가 던지는 모든 예외를 문서화라.
 1. [x] 75 예외의 상세 메세지에 실패 관련 정보를 담으라.
 1. [x] 76 가능한 한 실패 원자적으로 만들라.
-1. [] 77
+1. [x] 77 예외를 무시하지 말라.
 
 #### 11장 동시성
 1. [x] 78 공유 중인 가변 데이터는 동기화해 사용하라. ✊[정리](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter11/Day78/item78.md)
 1. [x] 79 과도한 동기화는 피하라. ✊[정리](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter11/Day79/item79.md)
 1. [x] 80 스레드보다는 실행자, 태스크, 스트림을 애용하라.
 1. [x] 81 wait 과 notify 보다는 동시성 유틸리티를 애용하라.
-1. [] 82 스레드 안전성 수준을 문서화하라.
+1. [x] 82 스레드 안전성 수준을 문서화하라.
 <br>
 <br>
 
