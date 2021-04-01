@@ -118,6 +118,9 @@
 1. [x] 81 wait 과 notify 보다는 동시성 유틸리티를 애용하라.
 1. [x] 82 스레드 안전성 수준을 문서화하라. ✊[발표](https://github.com/cmg1411/effectiveJava/blob/master/src/main/java/Chapter11/Day82/item82.md)
 1. [x] 83 지연 초기화는 신중히 사용하라.
+1. [x] 84 프로그램의 동작을 스레드 스케쥴러에 기대지 말라.
+
+#### 12장 직렬화
 <br>
 <br>
 
